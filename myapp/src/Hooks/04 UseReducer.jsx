@@ -3,9 +3,11 @@ import { useReducer } from "react";
 // state
 // dispatch
 
+// Arguments for useReducer Hook
 // reducer: custom state Logic.
 // initialState: initial.
 // init?: function that returns an initialState
+
 const UseReducer = () => {
 
     const reducer = (state, action) => {
