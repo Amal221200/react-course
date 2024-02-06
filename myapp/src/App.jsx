@@ -1,11 +1,11 @@
-import CopyEvent from "./EventListners/CopyEvent"
+import UseState from "./Hooks/01 UseState"
 
 function App() {
 
   return (
-    <>
-      <CopyEvent />
-    </>
+    <main className="h-screen w-screen flex justify-center items-center">
+      <UseState />
+    </main>
   )
 }
 
