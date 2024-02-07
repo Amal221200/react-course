@@ -1,0 +1,40 @@
+.container {
+    background-color: #fcfff3;
+    padding: 50px;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: #f5f9eb;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    border-radius: 100px;
+    background-color: #454545;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.todos-list {
+    margin-top: 3rem;
+}
+
+.todo {
+    list-style: none;
+    font-family: sans-serif;
+    background-color: #f5f9eb;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    margin: 10px;
+}
+
+button.close {
+    padding: 5px 10px;
+}
